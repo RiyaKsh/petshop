@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WePet - Services</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "#5d553f",
+                        secondary: "#d1c3a8",
+                        accent: "#ff7b54",
+                    }
+                }
+            }
+        };
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+        body { font-family: 'Poppins', sans-serif; scroll-behavior: smooth; }
+    </style>
+</head>
+<body class="bg-secondary text-gray-900">
+
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md fixed top-0 w-full z-50 py-4">
+        <div class="max-w-7xl mx-auto flex justify-between items-center px-6">
+            <a href="index.html" class="text-2xl font-bold text-primary">WePet</a>
+            <div class="hidden md:flex space-x-6">
+                <a href="index.html" class="text-gray-700">Home</a>
+                <a href="about.html" class="text-gray-700">About</a>
+                <a href="#services" class="text-gray-700">Services</a>
+                <a href="contact.html" class="text-gray-700">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative mt-[80px]">
+        <div class="absolute inset-0 bg-black bg-opacity-40 flex flex-col justify-center items-center text-white text-center">
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-16 pt-24 text-center">
+        <h2 class="text-4xl font-extrabold text-primary">Our Services</h2>
+        <p class="text-gray-700 mt-3 text-lg">We offer premium care for your beloved pets</p>
+
+        <div class="mt-10 grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto px-6">
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <h3 class="text-2xl font-semibold text-primary">🐶 Adoption Services</h3>
+                <p class="text-gray-600 mt-2">Find loving homes for pets in need.</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <h3 class="text-2xl font-semibold text-primary">🐱 Veterinary Care</h3>
+                <p class="text-gray-600 mt-2">Quality medical care for your furry friends.</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <h3 class="text-2xl font-semibold text-primary">🦜 Pet Training</h3>
+                <p class="text-gray-600 mt-2">Behavioral training for well-mannered pets.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Button -->
+    <div class="text-center my-10">
+        <a href="contact.html" class="bg-accent text-white px-6 py-3 rounded-lg shadow-md text-lg font-semibold">
+            Contact Us
+        </a>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-primary py-6 text-center text-white">
+        <h3 class="font-bold text-2xl">WePet</h3>
+        <p class="mt-2 text-sm">© 2025 WePet. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
