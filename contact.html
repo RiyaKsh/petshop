@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WePet - Contact</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#d1c3a8] text-gray-900">
+    <nav class="bg-white shadow-md fixed top-0 w-full z-50">
+        <div class="max-w-7xl mx-auto flex justify-between items-center py-4 px-6">
+            <a href="index.html" class="text-2xl font-bold text-[#5d553f]">WePet</a>
+            <div class="hidden md:flex space-x-6">
+                <a href="index.html" class="hover:text-[#5d553f]">Home</a>
+                <a href="about.html" class="hover:text-[#5d553f]">About</a>
+                <a href="services.html" class="hover:text-[#5d553f]">Services</a>
+                <a href="contact.html" class="hover:text-[#5d553f]">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contact Section -->
+    <section class="h-screen flex items-center justify-center px-6">
+        <div class="bg-white rounded-lg shadow-lg max-w-6xl w-full grid grid-cols-1 md:grid-cols-2">
+            <!-- Left Side - Contact Info -->
+            <div class="bg-[#91876e] text-white p-8 flex flex-col justify-center rounded-l-lg">
+                <h2 class="text-3xl font-bold">Get in Touch</h2>
+                <p class="mt-4 text-lg">We’d love to hear from you! Reach out to us anytime.</p>
+                
+                <div class="mt-6 space-y-4">
+                    <div class="flex items-center space-x-3">
+                        <span class="text-2xl">📍</span>
+                        <p>Bangalore, India</p>
+                    </div>
+                    <div class="flex items-center space-x-3">
+                        <span class="text-2xl">📞</span>
+                        <p>+91 673-241-333</p>
+                    </div>
+                    <div class="flex items-center space-x-3">
+                        <span class="text-2xl">✉️</span>
+                        <p>contact@wepet.com</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Side - Contact Form -->
+            <div class="p-8">
+                <h2 class="text-3xl font-bold text-[#5d553f]">Send Us a Message</h2>
+                <form action="#" method="POST" class="mt-6 space-y-4">
+                    <div>
+                        <label class="block text-gray-700">Your Name</label>
+                        <input type="text" name="name" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:border-[#91876e]" required>
+                    </div>
+                    
+                    <div>
+                        <label class="block text-gray-700">Your Email</label>
+                        <input type="email" name="email" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:border-[#91876e]" required>
+                    </div>
+
+                    <div>
+                        <label class="block text-gray-700">Your Message</label>
+                        <textarea name="message" rows="4" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:border-[#91876e]" required></textarea>
+                    </div>
+
+                    <button type="submit" class="w-full bg-[#5d553f] text-white py-3 rounded-lg hover:bg-[#4b4b4b] transition">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white py-6 text-center">
+        <h3 class="text-[#5d553f] font-bold text-xl">WePet</h3>
+    </footer>
+    
+</body>
+</html>
